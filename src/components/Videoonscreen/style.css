@@ -1,0 +1,40 @@
+.video_embed {
+    padding: 8px 60px 8px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 2px auto;
+}
+
+.col_1 {
+    width: 30%;
+    min-width: 375px;
+    margin: 0px 15px;
+}
+
+.homescreen_embed {
+    width: 100%;
+    height: 250px;
+    margin: 10px auto;
+    border-radius: 3px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .col_1 {
+        width: 100%;
+        margin: 10px auto;
+    }
+
+    .homescreen_embed {
+        width: 100%;
+        height: 200px;
+        border-radius: 3px;
+        margin: 0 auto;
+    }
+
+    .video_embed {
+        flex-direction: column;
+        margin-left: -34px;
+        width: 100vw;
+    }
+  }

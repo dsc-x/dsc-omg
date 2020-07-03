@@ -1,0 +1,89 @@
+service: io
+api_version: 1
+threadsafe: true
+runtime: python27
+
+default_expiration: '30d'
+
+handlers:
+  - url: /io/assets
+    static_dir: build/assets
+    secure: always
+    expiration: '1d'
+
+  - url: /io/sw.js
+    static_files: build/sw.js
+    upload: build/sw.js
+    expiration: '1s'
+    secure: always
+    http_headers:
+      Cache-Control: private, no-cache
+
+  - url: /io/manifest.json
+    static_files: build/manifest.json
+    upload: build/manifest.json
+    secure: always
+    expiration: '1h'
+
+  - url: /io/robots.txt
+    static_files: robots.txt
+    upload: robots.txt
+    secure: always
+    expiration: '1h'
+
+  - url: /io/(.*\.css)
+    mime_type: text/css
+    static_files: build/\1
+    upload: build/(.*\.css)
+    secure: always
+    expiration: '365d'
+
+  - url: /io/(.*\.js)
+    mime_type: text/javascript
+    static_files: build/\1
+    upload: build/(.*\.js)
+    secure: always
+    expiration: '365d'
+
+  - url: /io/(.*\.map)
+    static_files: build/\1
+    upload: build/(.*\.map)
+    secure: always
+
+  - url: /io/speakers/?
+    static_files: build/speakers/index.html
+    upload: build/speakers/index.html
+    secure: always
+    expiration: '1s'
+
+  - url: /io/faq/communityguidelines/?
+    static_files: build/faq/communityguidelines/index.html
+    upload: build/faq/communityguidelines/index.html
+    secure: always
+    expiration: '1s'
+
+  - url: /io/faq/?
+    static_files: build/faq/index.html
+    upload: build/faq/index.html
+    secure: always
+    expiration: '1s'
+
+  - url: /io/.*
+    static_files: build/index.html
+    upload: build/index.html
+    secure: always
+    expiration: '1s'
+    http_headers:
+      Cache-Control: public, max-age=3600, no-cache
+      Access-Control-Allow-Origin: '*'
+      Access-Control-Max-Age: '600'
+
+  - url: /io.*
+    script: main.app
+    secure: always
+
+skip_files:
+  - bower_components
+  - node_modules
+  - src
+  - .idea

@@ -1,0 +1,279 @@
+.hero {
+    padding: 60px;
+    max-width: initial;
+    display: flex;
+    width: 100%;
+    z-index: 1;
+    justify-content: space-between;
+}
+
+.hero h2 {
+    margin: 0;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.5px;
+    font-weight: 400;
+    max-width: 500px;
+    color: #3c4043;
+}
+
+.hero span {
+    color: #1a73e8;
+}
+
+.hero h3 {
+    color: #3c4043;
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.hero h4 {
+    margin-top: 24px;
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.hero_title {
+    margin: 64px 0;
+    width: 100%;
+}
+
+.belt img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.home_info {
+    padding: 48px 60px;
+    display: flex;
+}
+
+.home_info .text {
+    width: 55%;
+    padding-right: 64px;
+}
+
+.home_info h3 {
+    margin-bottom: 28px;
+    padding: 0;
+    font-size: 32px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.home_info p {
+    font-size: 17px;
+    line-height: 28px;
+}
+
+.home_info .stats {
+    padding-left: 64px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 45%;
+}
+
+.action_button {
+    font-family: "Google Sans", arial, sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #1A73E8;
+    border: 1px solid #DADCE0;
+    padding: 8px 28px;
+    transition: all 0.1s ease-in-out;
+    letter-spacing: 0.25px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px 12px 5px 0px
+
+}
+
+.button_holder {
+    display: flex;
+    flex-direction: row;
+}
+
+.action_button:hover, .action_button:focus {
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.02);
+}
+
+.stats .stat {
+    width: 50%;
+    margin: 16px 0 24px 0;
+}
+
+.stats .stat .number {
+    font-size: 50px;
+    line-height: 72px;
+}
+
+.stats .stat .number:after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 64px;
+    background-color: #1a73e8;
+}
+
+.stats .stat .label {
+    margin-top: 5px;
+}
+
+.partners {
+    padding: 48px 60px;
+    max-width: 1200px;
+}
+
+.partners h3 {
+    margin-bottom: 28px;
+    padding: 0;
+    font-size: 32px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.partners h4 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.partners .sponsor {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.partners .item {
+    display: flex;
+    align-items: center;
+    padding: 8px 24px;
+    width: 170px;
+    height: 140px;
+    margin: 0 2px 4px 0;
+}
+
+.partners .item img {
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+    margin: auto;
+}
+
+@media screen and (max-width: 960px) {
+    .home_info .stats {
+        padding-left: 48px;
+    }
+
+    .stats .stat .number {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hero {
+        width: auto;
+        padding: 112px 20px 48px 20px;
+        flex-direction: column;
+    }
+
+    .hero_title {
+        margin-top: 0;
+        width: 100%;
+    }
+
+    .hero h2 {
+        font-size: 24px;
+        line-height: 32px;
+        max-width: 90%;
+        margin: 0;
+    }
+
+    .hero h3 {
+        margin-top: 32px;
+        font-size: 16px;
+    }
+
+    .hero h4 {
+        margin-top: 16px;
+    }
+
+    .video {
+        width: 100%;
+        margin-top: 48px;
+    }
+
+    .belt {
+
+    }
+
+    .home_info {
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    .home_info .text,
+    .home_info .stats {
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%;
+    }
+
+    .home_info p {
+        line-height: 26px;
+    }
+
+    .stats .stat .number {
+        font-size: 40px;
+    }
+
+    .home_info h3,
+    .partners h3 {
+        font-size: 28px;
+        margin-bottom: 24px;
+    }
+
+    .partners {
+        padding: 20px;
+    }
+
+    .partners .item {
+        padding: 16px 24px;
+        width: calc(25% - 2px);
+        height: 95px;
+    }
+
+    .partners .item img {
+        width: 110px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .partners .item {
+        width: calc(33.33% - 2px);
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .partners .item {
+        width: calc(50% - 2px);
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .button_holder {
+        flex-direction: row;
+        margin: 0 auto;
+    }
+
+    .action_button_2 {
+        margin-left: unset;
+        margin-top: 20px;
+    }
+}

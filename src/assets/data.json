@@ -1,0 +1,216 @@
+{
+    "sessions": {
+        "101": {
+            "title": "Registration",
+            "location": "Hall 1",
+            "description": "Get your badge, coffee, enjoy talking with tech edicts around",
+            "startTime": "8:45AM",
+            "endTime": "9:30AM",
+            "duration": "45 mins"
+        },
+        "102": {
+            "title": "I/O Extended 2018 Opening",
+            "location": "Hall 1",
+            "description": "Official start of the conference. Greetings from the organizers, sponsors and partners.",
+            "startTime": "9:30AM",
+            "endTime": "9:45AM",
+            "duration": "15 mins"
+        },
+        "103": {
+            "title": "Keynote",
+            "location": "Hall 1",
+            "description": "Join us to learn about product and platform innovation at Google.",
+            "startTime": "9:45AM",
+            "endTime": "10:15AM",
+            "duration": "30 mins"
+        },
+        "104": {
+            "title": "TBA",
+            "location": "Hall 1",
+            "description": "",
+            "startTime": "10:15AM",
+            "endTime": "11:00AM",
+            "duration": "45 mins"
+        },
+        "105": {
+            "title": "TBA",
+            "location": "Hall 1",
+            "description": "",
+            "startTime": "11:00AM",
+            "endTime": "11:45AM",
+            "duration": "45 mins"
+        },
+        "106": {
+            "title": "TBA",
+            "location": "Hall 1",
+            "description": "",
+            "startTime": "11:45AM",
+            "endTime": "12:30PM",
+            "duration": "45 mins"
+        },
+        "107": {
+            "title": "Lunch",
+            "location": "Hall 1",
+            "description": "",
+            "startTime": "12:30PM",
+            "endTime": "1:30PM",
+            "duration": "1 hour"
+        },
+        "108": {
+            "title": "TBA",
+            "location": "Hall 1",
+            "description": "",
+            "startTime": "1:30PM",
+            "endTime": "2:15PM",
+            "duration": "45 mins"
+        },
+        "109": {
+            "title": "TBA",
+            "location": "Hall 1",
+            "description": "",
+            "startTime": "2:15PM",
+            "endTime": "3:00PM",
+            "duration": "45 mins"
+        },
+        "110": {
+            "title": "Break",
+            "location": "Hall 1",
+            "description": "",
+            "startTime": "3:00PM",
+            "endTime": "3:30PM",
+            "duration": "30 mins"
+        },
+        "111": {
+            "title": "TBA",
+            "location": "Hall 1",
+            "description": "",
+            "startTime": "3:30PM",
+            "endTime": "4:15PM",
+            "duration": "45 mins"
+        },
+        "112": {
+            "title": "TBA",
+            "location": "Hall 1",
+            "description": "",
+            "startTime": "4:15PM",
+            "endTime": "5:00PM",
+            "duration": "45 mins"
+        },
+        "113": {
+            "title": "TBA",
+            "location": "Hall 1",
+            "description": "",
+            "startTime": "5:00",
+            "endTime": "5:45",
+            "duration": "45 mins"
+        },
+        "114": {
+            "title": "Photo Session & Closing",
+            "location": "Hall 1",
+            "description": "",
+            "startTime": "5:45PM",
+            "endTime": "6:00PM",
+            "duration": "15 mins"
+        }
+    },
+    "schedule": [
+        {
+            "sessions": [
+                101
+            ],
+            "startTime": "8:45",
+            "ampm": "AM"
+        },
+        {
+            "startTime": "9:30",
+            "ampm": "AM",
+            "sessions": [
+                102
+            ]
+        },
+        {
+            "startTime": "9:45",
+            "ampm": "AM",
+            "sessions": [
+                103
+            ]
+        },
+        {
+            "startTime": "10:15",
+            "ampm": "AM",
+            "sessions": [
+                104
+            ]
+        },
+        {
+            "startTime": "11:00",
+            "ampm": "AM",
+            "sessions": [
+                105
+            ]
+        },
+        {
+            "startTime": "11:45",
+            "ampm": "AM",
+            "sessions": [
+                106
+            ]
+        },
+        {
+            "startTime": "12:30",
+            "ampm": "PM",
+            "sessions": [
+                107
+            ]
+        },
+        {
+            "startTime": "1:30",
+            "ampm": "PM",
+            "sessions": [
+                108
+            ]
+        },
+        {
+            "startTime": "2:15",
+            "ampm": "PM",
+            "sessions": [
+                109
+            ]
+        },
+        {
+            "startTime": "3:00",
+            "ampm": "PM",
+            "sessions": [
+                110
+            ]
+        },
+        {
+            "startTime": "3:30",
+            "ampm": "PM",
+            "sessions": [
+                111
+            ]
+        },
+        {
+            "startTime": "4:15",
+            "ampm": "PM",
+            "sessions": [
+                112
+            ]
+        },
+        {
+            "startTime": "5:00",
+            "ampm": "PM",
+            "sessions": [
+                113
+            ]
+        },
+        {
+            "startTime": "5:45",
+            "ampm": "PM",
+            "sessions": [
+                114
+            ]
+        }
+    ]
+}

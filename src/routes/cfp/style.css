@@ -1,0 +1,17 @@
+.cfp {
+    display: flex;
+    justify-content: center;
+    max-width: 960px;
+    padding-bottom: 64px;
+    margin: 64px 60px 0 60px; 
+}
+
+@media screen and (max-width: 768px) {
+    .cfp {
+        margin: 8px 0 0 0;
+        padding: 80px 16px 0 16px;
+    }
+    .footer {
+        display: none;
+    }
+}

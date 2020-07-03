@@ -1,0 +1,28 @@
+.container {
+    margin-bottom: 128px;
+    padding: 0 60px 0 60px;
+    max-width: 800px;
+    line-height: 1.8;
+}
+
+.container h4 {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.container a {
+    color: var(--primary-color);
+    font-weight: 500;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        margin-bottom: 0;
+        padding: 20px;
+    }
+
+    .container h4 {
+        font-size: 17px;
+    }
+}

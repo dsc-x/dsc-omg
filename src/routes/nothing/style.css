@@ -1,0 +1,26 @@
+.action_button {
+    font-family: "Google Sans", arial, sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #1A73E8;
+    border: 1px solid #DADCE0;
+    padding: 8px 28px;
+    transition: all 0.1s ease-in-out;
+    letter-spacing: 0.25px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px 12px 5px 0px
+
+}
+
+.button_holder {
+    display: flex;
+    flex-direction: row;
+}
+
+.action_button:hover, .action_button:focus {
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.02);
+}

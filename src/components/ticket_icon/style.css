@@ -1,0 +1,11 @@
+.ticket_icon {
+    width: 40px;
+    min-width: 40px;
+    height: 40px;
+    min-height: 40px;
+    margin-right: 20px;
+}
+
+.ticket_icon .fill_color {
+    fill: var(--ticket-icon-color);
+}

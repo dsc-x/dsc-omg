@@ -1,0 +1,157 @@
+[{
+    "time": "8:45",
+    "ampm": "AM",
+    "session": [{
+        "title": "Registration",
+        "duration": "1 hour",
+        "startTime": "8:45AM",
+        "endTime": "9:30AM",
+        "location": "Hall 1",
+        "description": "Get your badge, coffee, enjoy talking with tech edicts around"
+    }]
+},
+{
+    "time": "9:30",
+    "ampm": "AM",
+    "session": [{
+        "title": "I/O Extended 2018 Opening",
+        "duration": "15 mins",
+        "startTime": "9:30AM",
+        "endTime": "9:45AM",
+        "location": "Hall 1",
+        "description": "Official start of the conference. Greetings from the organizers, sponsors and partners."
+    }]
+},
+{
+    "time": "9:45",
+    "ampm": "AM",
+    "session": [{
+        "title": "Keynote",
+        "duration": "30 mins",
+        "startTime": "9:45AM",
+        "endTime": "10:15AM",
+        "location": "Hall 1",
+        "description": "Join us to learn about product and platform innovation at Google."
+    }]
+},
+{
+    "time": "10:15",
+    "ampm": "AM",
+    "session": [{
+        "title": "TBA",
+        "duration": "45 mins",
+        "startTime": "10:15AM",
+        "endTime": "11:00AM",
+        "location": "Hall 1"
+    }]
+},
+{
+    "time": "11:00",
+    "ampm": "AM",
+    "session": [{
+        "title": "TBA",
+        "duration": "45 mins",
+        "startTime": "11:00AM",
+        "endTime": "11:45AM",
+        "location": "Hall 1"
+    }]
+},
+{
+    "time": "11:45",
+    "ampm": "AM",
+    "session": [{
+        "title": "TBA",
+        "duration": "45 mins",
+        "startTime": "11:45AM",
+        "endTime": "12:30PM",
+        "location": "Hall 1"
+    }]
+},
+{
+    "time": "12:30",
+    "ampm": "PM",
+    "session": [{
+        "title": "Lunch",
+        "duration": "1 hour",
+        "startTime": "12:30PM",
+        "endTime": "1:30PM",
+        "location": "Hall 1"
+    }]
+},
+{
+    "time": "1:30",
+    "ampm": "PM",
+    "session": [{
+        "title": "TBA",
+        "duration": "45 mins",
+        "startTime": "1:30PM",
+        "endTime": "2:15PM",
+        "location": "Hall 1"
+    }]
+},
+{
+    "time": "2:15",
+    "ampm": "PM",
+    "session": [{
+        "title": "TBA",
+        "duration": "45 mins",
+        "startTime": "2:15PM",
+        "endTime": "3:00PM",
+        "location": "Hall 1"
+    }]
+},
+{
+    "time": "3:00",
+    "ampm": "PM",
+    "session": [{
+        "title": "Break",
+        "duration": "30 mins",
+        "startTime": "3:00PM",
+        "endTime": "3:30PM",
+        "location": "Hall 1"
+    }]
+},
+{
+    "time": "3:30",
+    "ampm": "PM",
+    "session": [{
+        "title": "TBA",
+        "duration": "45 mins",
+        "startTime": "3:30PM",
+        "endTime": "4:15PM",
+        "location": "Hall 1"
+    }]
+},
+{
+    "time": "4:15",
+    "ampm": "PM",
+    "session": [{
+        "title": "TBA",
+        "duration": "45 mins",
+        "startTime": "4:15PM",
+        "endTime": "5:00PM",
+        "location": "Hall 1"
+    }]
+},
+{
+    "time": "5:00",
+    "ampm": "PM",
+    "session": [{
+        "title": "TBA",
+        "duration": "45 mins",
+        "startTime": "5:00PM",
+        "endTime": "5:45PM",
+        "location": "Hall 1"
+    }]
+},
+{
+    "time": "5:45",
+    "ampm": "PM",
+    "session": [{
+        "title": "Photo Session & Closing",
+        "duration": "30 mins",
+        "startTime": "5:45PM",
+        "endTime": "6:15AM",
+        "location": "Hall 1"
+    }]
+}]

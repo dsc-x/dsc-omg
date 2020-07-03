@@ -1,0 +1,123 @@
+.tabs {
+    display: none;
+    margin: 0 0 0 60px;
+    position: relative;
+}
+
+.tabs .tab {
+    color: #4A4A4A; 
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    margin: 0 4px;
+    padding: 16px;
+    transition: 150ms border ease, 150ms color ease;
+}
+
+.tabs .tab:hover {
+    color: var(--primary-color);
+}
+
+.tabs .line {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    position: absolute;
+    height: 3px;
+    width: 50%;
+    background-color: var(--primary-color);
+    bottom: 0;
+    transition: 250ms ease transform;
+}
+
+.tabs .tab:first-child[active] ~ .line {
+    transform: translateX(0%);
+}
+
+.tabs .tab:nth-child(2)[active] ~ .line {
+    transform: translateX(100%);
+}
+
+.attending {
+    max-width: 960px;
+    padding-bottom: 64px;
+    margin: 64px 60px 0 60px;
+}
+
+.attending_item {
+    margin-bottom: 120px;
+    display: flex;
+}
+
+.attending_title {
+    font-size: 28px;
+    width: 25%
+}
+
+.attending_content {
+    padding-left: 64px;
+    width: 75%;
+    font-size: 16px;
+    line-height: 1.87;
+}
+
+.attending_content p {
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+.attending_content b {
+    font-weight: 500;
+}
+
+.attending_content a {
+    color: var(--primary-color);
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.attending_list p {
+    margin: 0 0 6px 0;
+}
+
+@media screen and (max-width: 768px) {
+    .tabs {
+        display: flex;
+        margin: 0;
+        width: 100%;
+        padding-top: 64px;
+        border-bottom: 1px solid #e6e6e6;
+    }
+    .tabs .tab {
+        text-align: center;
+        width: 100%;
+    }
+    .hero, .belt {
+        display: none;
+    }
+    .attending {
+        margin: 8px 0 0 0;
+        padding: 20px;
+    }
+    .attending_item {
+        flex-direction: column;
+        margin-bottom: 48px;
+    }
+    .attending_title {
+        width: auto;
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 12px;
+    }
+    .attending_content {
+        padding-left: 0;
+        width: 95%;
+    }
+    .footer {
+        display: none;
+    }
+}
+@media screen and (max-width: 600px) {
+    .tabs {
+        padding-top: 56px;
+    }
+}

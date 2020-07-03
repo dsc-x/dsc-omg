@@ -1,0 +1,140 @@
+/**
+ * Copyright 2016 Oleh Zasadnyy, GDG Lviv
+ * Source: https://github.com/gdg-x/hoverboard
+*/
+
+.photos_grid {
+    margin: 64px auto 0 auto;
+    display: grid;
+    width: 100%;
+    min-height: 400px;
+    height: calc(100vh - 40px);
+    max-height: 750px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-gap: 2px;
+}
+
+.grid_item {
+    background-color: #1a73e8;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+.grid_item:first-child {
+    grid-area: 1 / 1 / 3 / 4;
+}
+
+.grid_item:nth-child(2) {
+    grid-area: 3 / 1 / 5 / 3;
+}
+
+.grid_item:nth-child(3) {
+    grid-area: 3 / 3 / 3 / 3;
+}
+
+.grid_item:nth-child(4) {
+    grid-area: 4 / 3 / 4 / 3;
+}
+
+.grid_item:nth-child(5) {
+    grid-area: 5 / 1 / 5 / 1;
+}
+
+.grid_item:nth-child(6) {
+    display: none;
+}
+
+.grid_item:nth-child(7) {
+    display: none;
+}
+
+.grid_item:nth-child(8) {
+    display: none;
+}
+
+.gallery_info {
+    padding: 24px 20px;
+    background-color: #1a73e8;
+    color: white;
+    z-index: 1;
+    grid-area: 5 / 2 / 5 / 4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.gallery_info h2 {
+    margin: 0;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.gallery_info p {
+    margin-bottom: 28px;
+    line-height: 22px;
+}
+
+.photos_grid a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid rgba(255,255,255,.7);
+    border-radius: 36px;
+    align-items: center;
+    justify-content: center;
+    height: 36px;
+    display: inline-flex;
+    padding: 0 18px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    transition: all 150ms ease;
+}
+
+.photos_grid a:hover {
+    border: 1px solid rgba(255,255,255,.8);
+    background-color: rgba(255,255,255,.1);
+}
+
+@media (min-width: 640px) {
+    .photos_grid {
+        height: calc(100vh - 64px);
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+    .grid_item:first-child {
+        grid-area: 1 / 1 / 1 / 3;
+    }
+    .grid_item:nth-child(2) {
+        grid-area: 1 / 3 / 2 / 5;
+    }
+    .grid_item:nth-child(3) {
+        grid-area: 1 / 5 / 3 / 5;
+    }
+    .grid_item:nth-child(4) {
+        grid-area: 2 / 1 / 2 / 1;
+    }
+    .grid_item:nth-child(5) {
+        grid-area: 2 / 2 / 2 / 2;
+    }
+    .grid_item:nth-child(6) {
+        grid-area: 3 / 1 / 3 / 3;
+        display: block;
+    }
+    .grid_item:nth-child(7) {
+        grid-area: 3 / 3 / 3 / 3;
+        display: block;
+    }
+    .grid_item:nth-child(8) {
+        grid-area: 3 / 4 / 3 / 6;
+        display: block;
+    }
+    .gallery_info {
+        padding: 24px;
+        grid-area: 2 / 3 / 2 / 5;
+    }
+}
