@@ -1,5 +1,6 @@
 # DSC OMG 2020
 
+<img width="733" alt="Screenshot 2020-06-10 at 7 30 48 PM" src="https://user-images.githubusercontent.com/15321738/86471022-2db89800-bd5a-11ea-9277-bb0be61a9e9c.png">
 Progressive Web App for Developer Student Clubs OMG, based on - Google I/O Extended 2019 Kuala Lumpur.
 Version: 1.0
 
