@@ -4,7 +4,7 @@
 Progressive Web App for Developer Student Clubs OMG, based on - Google I/O Extended 2019 Kuala Lumpur.
 Version: 1.0
 
-[Click Here](https://dscomg.com/)
+[DSC OMG 2020](https://dscomg.netlify.app/)
 
 ## Getting Started
 
