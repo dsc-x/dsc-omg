@@ -23,11 +23,11 @@
     "build/*"
   ],
   "devDependencies": {
-    "copy-webpack-plugin": "^4.6.0",
+    "copy-webpack-plugin": "^11.0.0",
     "eslint": "^4.5.0",
     "eslint-config-synacor": "^1.1.0",
     "if-env": "^1.0.0",
-    "preact-cli": "^2.2.1",
+    "preact-cli": "^3.4.3",
     "preact-cli-plugin-netlify": "^1.1.0",
     "preact-cli-sw-precache": "^1.0.3",
     "webpack-bundle-analyzer": "^3.3.2",
